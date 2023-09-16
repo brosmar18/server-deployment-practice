@@ -23,4 +23,9 @@ app.get('/bad', (req, res, next) => {
 app.use('*', notFond);
 app.use(errorHandler);
 
-app.listen(3001, () => console.log('server is running'));
+const start = () => {
+    app.listen(3001, () => console.log('server is running'));
+}
+
+module.exports = { start, app };
+
