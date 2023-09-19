@@ -20,7 +20,7 @@ API server where we write some middleware and practice deployment.
 
 #### `.env` requirements (where applicable)
 
-for now I have none and do not require one
+i.e. not necessary for this lab, will come later. 
 
 
 #### How to initialize/run your application (where applicable)
